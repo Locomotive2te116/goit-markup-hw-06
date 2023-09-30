@@ -1,0 +1,82 @@
+@media screen and (min-width: 768px) {
+    .container {
+            max-width: 736px;
+        }
+
+
+/* Hero */
+.hero {
+    padding: 96px 0;
+    
+}
+.hero-title {
+    font-size: 56px;
+    max-width: 496px;
+    margin-bottom: 36px;
+}
+
+
+/*Benefits*/
+
+
+.benefits-list-item {
+    width: calc((100% - 24px) / 2);
+}
+
+.section-title {
+  text-align: left;
+}
+
+/*-Accent*/
+
+
+
+/*Customers*/
+
+.customers-list {
+   list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 72px;
+    column-gap: 24px;
+    align-items: center
+}
+
+.customer-item {
+    width: calc((100% - 48px) / 3);
+  
+}
+
+.customer-link {
+   
+    padding: 16px 32px;
+}
+.customer-icon {
+    fill: currentColor;
+    min-width: 104px;
+    min-height: 56px;
+}
+
+/*----Footer----*/
+
+
+.footer-bg {
+   padding-top: 96px;
+    padding-bottom: 96px;
+
+}
+.footer-container {
+    
+    align-items: left;
+    /*justify-content: center;*/
+
+}
+
+
+
+
+
+
+
+}
