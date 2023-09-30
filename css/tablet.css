@@ -62,17 +62,17 @@
 
 
 .footer-bg {
-   padding-top: 96px;
-    padding-bottom: 96px;
+  
 
 }
 .footer-container {
-    
-    align-items: left;
-    /*justify-content: center;*/
+    width: calc((100% - 24px) / 2);
+  }
 
+
+.footer-list-item {
+    /*margin-right: 120px;*/
 }
-
 
 
 
