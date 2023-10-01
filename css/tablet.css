@@ -92,7 +92,18 @@
 /* Hero */
 .hero {
     padding: 96px 0;
-    
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/Dark-bg_tablet.jpg);
+   
+            @media only screen and (min-resolution:192dpi) {
+                .hero{
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                        url(../images/Dark-bg_tablet@2x.jpg);
+                }
+        }
 }
 .hero-title {
     font-size: 56px;

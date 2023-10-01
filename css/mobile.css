@@ -43,8 +43,6 @@
 .hero {
     padding: 96px 0;
     background-color: var(--secondary-bg-color);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/img-name.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,6 +50,18 @@
     overflow: hidden;
     margin: auto;
     outline: 1px solid red;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/Dark-bg_mobil.jpg);
+
+    @media only screen and (min-resolution:192dpi) {
+       .hero{
+           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+               url(../images/Dark-bg_mobil@2x.jpg);
+       }  
+    }
+
+
+
 }
 .hero-title {
     font-size: 36px;
