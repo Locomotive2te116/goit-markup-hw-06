@@ -5,6 +5,91 @@
         padding-right: 16px;
     }
 
+/*Header*/
+.site-nav {
+    display: flex;
+    gap: 40px;
+}
+.contacts-list {
+    display: flex;
+    gap: 40px;
+
+}
+.address {
+    font-style: normal;
+}
+.contacts {
+    color: var(--primary-text-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: inline-block;
+    font-style: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts:hover,
+.contacts:focus {
+    color: var(--hover-text-color);
+}
+
+.current:hover,
+.current:focus {
+    color: var(--hover-text-color);
+
+}
+
+.current:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    width: 100%;
+    background-color: var(--hover-text-color);
+    border-radius: 2px;
+    z-index: 1;
+    color: var(--hover-text-color);
+}
+
+
+.item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: inline-block;
+}
+
+.site-nav .link {
+    line-height: 1.5;
+
+    color: var(--title-text-color);
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hover-text-color);
+}
+
+
+
+
+
+.site-nav .current {
+    color: var(--hover-text-color);
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
 
 /* Hero */
 .hero {
@@ -146,31 +231,18 @@ font-weight: 400;
 /*----Footer----*/
 
 
-.footer-bg {
-    padding-top: 100px;
-    padding-bottom: 100px;
+
+
+
+
+
+
+
+/*mobile-menu*/
+
+.menu-toggle {
+    display: none;
 
 }
-
-.footer-container {
-    display: flex;
-    align-items: baseline;
-    /*justify-content: center;*/
-     flex-wrap: nowrap;
-}
-
-
-
-
-
-
-
-.footer-list-item {
-  margin-right: 120px;
-}
-
-
-
-
 
 }

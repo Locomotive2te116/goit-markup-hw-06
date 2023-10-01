@@ -26,10 +26,12 @@
   </head>
   <body>
     <!-- Header -->
-    <!--<header class="header">
+    <header class="header">
       <div class="container header-box">
         <nav class="heder-navigation">
-          <a href="./index.html" class="logo link">Web<span class="logo-part">Studio</span></a>
+          <a href="./index.html" class="logo link"
+            >Web<span class="logo-part-header">Studio</span></a
+          >
           <ul class="site-nav list">
             <li><a href="./index.html" class="link item current">Studio</a></li>
             <li><a href="./portfolio.html" class="link item">Portfolio</a></li>
@@ -46,8 +48,17 @@
             </li>
           </ul>
         </address>
+        <button
+          class="header-menu-btn menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="toggle-menu-icon" width="28" height="28">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
-    </header>-->
+    </header>
     <!-- Main -->
     <main>
       <!-- Hero -->
@@ -343,7 +354,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer-bg">
+    <footer class="footer-bg container">
       <div class="footer-container">
         <div class="footer-list-item">
           <a href="./index.html" class="logo link"
@@ -412,7 +423,7 @@
       </div>
     </footer>
 
-    <!--<div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="modal-btn" width="8" height="8">
@@ -487,7 +498,99 @@
           <button type="submit" class="btn-submit">Send</button>
         </form>
       </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <!-- <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="mobile-menu-close js-close-menu">
+        <svg class="menu-toggle-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link current-mobile-page" href="">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="">Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-contacts">
+        <li class="mobile-contact-item">
+          <a class="mobile-contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
+        <li class="mobile-contact-item">
+          <a class="mobile-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-socials list">
+        <li class="mobile-social-item">
+          <a
+            class="mobile-socials-link"
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook link"
+          >
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a
+            class="mobile-socials-link"
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram link"
+          >
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a
+            class="mobile-socials-link"
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter link"
+          >
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a
+            class="mobile-socials-link"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Linkedin link"
+          >
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div> -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
