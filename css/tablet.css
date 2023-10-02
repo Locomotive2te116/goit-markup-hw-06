@@ -158,6 +158,53 @@
 
 
 
+  .footer-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 264px;
+    flex-basis: calc((100% - 48px) / 2);
+  }
+  .footer-link-soc {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 34px;
+  }
+
+.logo {
+   margin-left: 76px; 
+}
+.footer-bg .logo {
+    margin-bottom: 16px;
+    margin-left: 0;
+    padding: 0;
+  }
+  .footer-title {
+  
+   margin-left: 0px;
+   margin-bottom: 16px;
+  }
+  .subscribe {
+    display: block;
+    margin-right: 36px;
+       
+  }
+  .sucscribe-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .subscribe-caption {
+    margin-left: 0px;
+  }
+
 
 
 
