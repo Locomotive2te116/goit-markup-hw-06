@@ -9,6 +9,7 @@
 .site-nav {
     display: flex;
     gap: 40px;
+    margin-left: 120px;
 }
 .contacts-list {
     display: inline-block;
@@ -176,7 +177,7 @@
   }
 
 .logo {
-   margin-left: 76px; 
+   margin-left: 0px; 
 }
 .footer-bg .logo {
     margin-bottom: 16px;

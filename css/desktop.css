@@ -9,6 +9,7 @@
 .site-nav {
     display: flex;
     gap: 40px;
+    margin-left: 76px;
 }
 .contacts-list {
     display: flex;
@@ -203,7 +204,7 @@ font-weight: 400;
     justify-content: center;
     align-items: center;
     gap: 24px;
-   max-width: 1128px;
+   max-width: 1130px;
 
 }
 .soc-list-team-link {
