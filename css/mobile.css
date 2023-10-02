@@ -504,8 +504,20 @@
     stroke: #2e2f42;
 
 }
-
-
+@media screen and (max-width: 420px) {
+    .modal {
+      max-width: 319px;
+      min-height: 480px;
+      padding-top: 54px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+    .modal-agreement-link {
+        display: block;
+        text-align: center;
+      }
+}
 
 
 
@@ -517,6 +529,10 @@
     .subscribe-email-footer {
         width: 398px;
     }
+    .modal-agreement-link {
+        display: inline;
+        
+      }
 }
 
 
