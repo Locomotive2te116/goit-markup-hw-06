@@ -648,12 +648,12 @@ cursor: pointer;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 200% */
+    
     letter-spacing: 0.48px;
     border-radius: 4px;
       border: 1px solid var(--white-text-color);
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-      width: 264px;
+     
       height: 40px;
       background-color: transparent;
       line-height: 1.5;
@@ -730,18 +730,15 @@ border: none;
   border: none;
   outline: none;
 }
-.menu-toggle:active {
-  
-  background-color: transparent;
-
-}
 .mobile-menu-link.current-mobile-page{
   color: var(--accent-text-color);
 }
 
 .toggle-menu-icon {
   stroke: #2e2f42;
+ 
 }
+
 
 .mobile-menu-close {
   position: absolute;
@@ -762,6 +759,11 @@ border: none;
 
 .menu-toggle-icon {
   fill: #2e2f42;
+  background-color: transparent;
+}
+.menu-toggle-icon:active {
+  
+  background-color: var(--cloud-bg-color);
 }
 
 .mobile-menu {

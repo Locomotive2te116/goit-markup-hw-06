@@ -204,7 +204,9 @@
   .subscribe-caption {
     margin-left: 0px;
   }
-
+ .subscribe-email-footer {
+    width: 264px;
+ }
 
 
 
