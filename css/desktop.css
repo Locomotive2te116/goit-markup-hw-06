@@ -11,6 +11,9 @@
     gap: 40px;
     margin-left: 76px;
 }
+.header-box {
+
+}
 .contacts-list {
     display: flex;
     gap: 40px;
@@ -20,7 +23,7 @@
     letter-spacing: 0.48px;
     font-style: normal;
     
-    height: 14px;
+    height: 62px;
 }
 .address {
     font-style: normal;
