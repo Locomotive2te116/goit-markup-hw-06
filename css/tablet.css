@@ -166,6 +166,13 @@
 .footer-container {
     justify-content: start;
 } 
+.container {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    outline: solid red;
+}
 
 
   .footer-list-item {

@@ -169,8 +169,8 @@
 .section-accent {
     background-color: var(--cloud-bg-color);
     padding-left: 0px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 .title-team {
     margin: 0 auto;
